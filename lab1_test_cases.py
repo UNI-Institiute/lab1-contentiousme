@@ -13,7 +13,13 @@ class TestsLab1(unittest.TestCase):
    def test_expressions(self):         # Defines one testing function.
       self.assertEqual(0 + 1, 1)
       # Add code here (like the line above) for the additional test cases.
-
+      self.assertEqual(2*2,4) 
+      self.assertEqual(19//3,6.33333)
+      self.assertAlmostEqual(19/3,6.33333)
+      self.assertAlmostEqual(19/3.0,6.3)
+      self.assertAlmostEqual(19.0/13.0,1.5)
+      self.assertEqual(4*2+27//3+4,21)
+      self.assertEqual(4*(2+27)//3+4,42)
 
 # Run the unit tests.
 if __name__ == '__main__':
