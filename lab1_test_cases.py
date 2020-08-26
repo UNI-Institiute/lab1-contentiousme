@@ -14,7 +14,7 @@ class TestsLab1(unittest.TestCase):
       self.assertEqual(0 + 1, 1)
       # Add code here (like the line above) for the additional test cases.
       self.assertEqual(2*2,4) 
-      self.assertEqual(19//3,6.33333)
+      self.assertEqual(19//3,6)
       self.assertAlmostEqual(19/3,6.33333)
       self.assertAlmostEqual(19/3.0,6.3)
       self.assertAlmostEqual(19.0/13.0,1.5)
