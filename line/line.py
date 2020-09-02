@@ -4,3 +4,4 @@ class Line:
     self.x2 = x2
     self.y1 = y1
     self.y2 = y2
+
