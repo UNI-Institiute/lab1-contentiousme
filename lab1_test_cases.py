@@ -20,7 +20,6 @@ class TestsLab1(unittest.TestCase):
       self.assertAlmostEqual(19.0/13.0,1.5)
       self.assertEqual(4*2+27//3+4,21)
       self.assertEqual(4*(2+27)//3+4,42)
-      this change should refelct on github
 
 # Run the unit tests.
 if __name__ == '__main__':
